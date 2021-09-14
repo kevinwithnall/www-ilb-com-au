@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Uncategorised &#8211; ILB Computing</title>
+	<atom:link href="/category/uncategorised/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Your technology partner</description>
+	<lastBuildDate>Tue, 31 Mar 2020 03:07:23 +0000</lastBuildDate>
+	<language>en-AU</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.1</generator>
+	<item>
+		<title>Permian</title>
+		<link>/packaged-offerings-permian/</link>
+		
+		<dc:creator><![CDATA[ilb_admin]]></dc:creator>
+		<pubDate>Thu, 26 Mar 2020 01:57:29 +0000</pubDate>
+				<category><![CDATA[Uncategorised]]></category>
+		<guid isPermaLink="false">/?p=7706</guid>
+
+					<description><![CDATA[<p>Client ILB Computing had an existing client with a long established family owned and operated self storage business The Problem Their equipment was ageing and becoming less reliable and they also required greater flexibility to efficiently manage operations from multiple locations. A industry standard management system requires a database back end so client/server bandwidth and...</p>
+<p>The post <a rel="nofollow" href="/packaged-offerings-permian/">Permian</a> appeared first on <a rel="nofollow" href="/">ILB Computing</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h4 class="p1"><b>Client</b></h4>
+<p class="p2">ILB Computing had an existing client with a long established family owned and operated self storage business</p>
+<h4 class="p1"><b>The Problem</b></h4>
+<p class="p2">Their equipment was ageing and becoming less reliable and they also required greater flexibility to efficiently manage operations from multiple locations. A industry standard management system requires a database back end so client/server bandwidth and latency is an issue.</p>
+<h4 class="p1"><b>Cloud solution</b></h4>
+<p class="p2">By moving the server to AWS EC2, and all workstations to AWS Workspaces, we created a far more flexible infrastructure that allowed easy shared access between and avoided the upfront cost of purchasing new servers and workstations and associated data replication between branches or RDP licenses.</p>
+<p class="p2">The server size is instantly scaleable to suit the changing needs of the business.</p>
+<p class="p2">Each workspace is accessible via the “converted” old workstations. At other locations each user will have remote access to the “same” workspace so they are familiar with the workstation. With a simple VPN solution, printing to all locations is simple.</p>
+<h4 class="p1"><b>Cost breakdown</b></h4>
+<ul>
+<li class="p2">Server Move $1386</li>
+<li class="p2">Server hosting &amp; workspace cost per month $829</li>
+<li class="p2">Workspace setup $2541</li>
+<li class="p2">VPN setup $192.50</li>
+<li class="p2">Misc configuration and setting up apps $385</li>
+<li class="p2">Hardware $1461.38</li>
+</ul>
+<h4 class="p1"><b>Total cost and time to complete migration</b></h4>
+<p class="p2">$5965.88 + $829 per month ( 6 workspaces plus cloud storage and VPN server )</p>
+<p class="p2">( Note the monthly cost can be reduced significantly by prepaying for 1-3yr periods )</p>
+<p class="p2">Total project time 10 days including training.</p>
+<p>The post <a rel="nofollow" href="/packaged-offerings-permian/">Permian</a> appeared first on <a rel="nofollow" href="/">ILB Computing</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>South Coast 4 Wheel Drive</title>
+		<link>/packaged-offerings-sc4wd/</link>
+		
+		<dc:creator><![CDATA[ilb_admin]]></dc:creator>
+		<pubDate>Thu, 26 Mar 2020 01:56:30 +0000</pubDate>
+				<category><![CDATA[Uncategorised]]></category>
+		<guid isPermaLink="false">/?p=7712</guid>
+
+					<description><![CDATA[<p>Project Name 4WD service centre cloud migration Client ILB Computing had an existing client with 20 staff in 1 location. The business has been operating for 25 years servicing the local area with a vehicle servicing outlet and retail premises selling 4WD related equipment. The Problem Their server was getting old and required frequent reboots...</p>
+<p>The post <a rel="nofollow" href="/packaged-offerings-sc4wd/">South Coast 4 Wheel Drive</a> appeared first on <a rel="nofollow" href="/">ILB Computing</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h4><b>Project Name</b></h4>
+<p><span style="font-weight: 400;">4WD service centre cloud migration</span></p>
+<h4><b>Client</b></h4>
+<p><span style="font-weight: 400;">ILB Computing had an existing client with 20 staff in 1 location. The business has been operating for 25 years servicing the local area with a vehicle servicing outlet and retail premises selling 4WD related equipment.</span></p>
+<h4><b>The Problem</b></h4>
+<p><span style="font-weight: 400;">Their server was getting old and required frequent reboots and the disks were beginning to fail.</span></p>
+<p><span style="font-weight: 400;">The computer workstations were getting old and having increased issues.</span></p>
+<p><span style="font-weight: 400;">The client wanted to open a second branch to offer service in another area closer to a growing market.</span></p>
+<h4><b>Cloud solution</b></h4>
+<p><span style="font-weight: 400;">By moving the server to AWS EC2, and all workstations to AWS Workspaces, we created a far more robust and flexible infrastructure and avoided the upfront cost of purchasing new servers and workstations and associated data replication between branches or RDP licenses.</span></p>
+<p><span style="font-weight: 400;">The server size is instantly scaleable to suit the changing needs of the business.</span></p>
+<p><span style="font-weight: 400;">Each workspace is accessible via the “converted” old workstations. As the new location will share staff with the current location, each user will have remote access to the “same” workspace so they are familiar with the workstation. With a simple VPN solution, printing to either location is simple.</span></p>
+<p><span style="font-weight: 400;">The only workspaces that needed to be created were the ones for concurrent staff so staff that move between locations don’t need expensive workstations.</span></p>
+<h4><b>Cost breakdown</b></h4>
+<ul>
+<li><span style="font-weight: 400;">Server Move $660</span></li>
+<li><span style="font-weight: 400;">Server hosting &amp; workspace cost per month $589 </span></li>
+<li><span style="font-weight: 400;">Workspace setup $825</span></li>
+<li><span style="font-weight: 400;">VPN setup $220</span></li>
+<li><span style="font-weight: 400;">Misc configuration and setting up apps $220</span></li>
+</ul>
+<h4><b>Total cost and time to complete migration</b></h4>
+<p><span style="font-weight: 400;">$1925 + $589 per month ( 6 workspaces plus cloud storage and VPN server ) </span></p>
+<p><span style="font-weight: 400;">( Note the monthly cost can be reduced significantly by prepaying for 1-3yr periods )</span></p>
+<p><span style="font-weight: 400;">Total project time 3 days including training</span></p>
+<h4><span style="font-weight: 400;">AWS Services used</span></h4>
+<p><span style="font-weight: 400;">VPC, EC2, Route53, Workspaces, Directory services</span></p>
+<p>The post <a rel="nofollow" href="/packaged-offerings-sc4wd/">South Coast 4 Wheel Drive</a> appeared first on <a rel="nofollow" href="/">ILB Computing</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Small Business &#8211; working remotely</title>
+		<link>/packaged-offerings-generic/</link>
+		
+		<dc:creator><![CDATA[ilb_admin]]></dc:creator>
+		<pubDate>Thu, 26 Mar 2020 01:24:43 +0000</pubDate>
+				<category><![CDATA[Uncategorised]]></category>
+		<guid isPermaLink="false">/?p=7715</guid>
+
+					<description><![CDATA[<p>Project Name AWS accelerate &#8211; Configuration of business services to allow staff to operate from home where necessary. Client A Client requires staff to have remote working capacity should the need arise. This requires moving the phone systems to VOIP and migrating computers and servers to the cloud. Once complete the staff now have the...</p>
+<p>The post <a rel="nofollow" href="/packaged-offerings-generic/">Small Business &#8211; working remotely</a> appeared first on <a rel="nofollow" href="/">ILB Computing</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h4><b>Project Name</b></h4>
+<p><span style="font-weight: 400;">AWS accelerate &#8211; Configuration of business services to allow staff to operate from home where necessary.</span></p>
+<h4><b>Client</b></h4>
+<p><span style="font-weight: 400;">A Client requires staff to have remote working capacity should the need arise. This requires moving the phone systems to VOIP and migrating computers and servers to the cloud. Once complete the staff now have the capacity to work from anywhere via Amazon workspaces.</span></p>
+<p>ILB staff arrived after hours, picked up servers and took offsite ready for fast migration. Another staff member installed the workspaces client on all workstations ready for the morning of working in the cloud. The next morning, Staff could login to workspaces accessing the data that was on the server (including a SQL server based application that was migrated to an EC2 instance). They can then, after some basic training, work from anywhere with the same access to the data and systems that they had in the office. Some took their workstations home to work on and others started to use thin clients we provided.</p>
+<p>Phones were moved to soft phones inside workspaces, and simple diversions on the phone line allowed immediate access to phones while working remotely. We will schedule the number ports to save the company the diversion costs shortly.</p>
+<p>Future work could include moving to RDS for better fault tolerance, however the main requirement was to allow staff to work from remote locations.</p>
+<h4><b>Cloud solution</b></h4>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">By moving the server to AWS EC2, and all workstations to AWS Workspaces, we create a far more robust and flexible infrastructure that can be operated from home if and when required.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The server size is instantly scaleable to suit the changing needs of the business in the current challenging environment.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Each workspace is accessible via the users current workstations so there is no outlay for new equipment. </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">With a simple VPN solution, printing to either location is simple.</span></li>
+</ul>
+<h4><b>Cost breakdown</b></h4>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Server Move &#8211; $1100 including setting up SQL server express on EC2 and doing a database migration. Included AD replication from old server.<br /></span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Server hosting &amp; workspace cost per month $118 per workspace approx </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">VOIP phone costs per month &#8211; $11 per extension </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Workspace setup $165 per workspace approx </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">VPN setup $220</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Misc configuration and setting up apps $220</span></li>
+</ul>
+<h4><b>Total time to complete migration</b></h4>
+<p>3 days including training </p>
+<h4><span style="font-weight: 400;">AWS Services used</span></h4>
+<p><span style="font-weight: 400;">VPC, EC2, Route53, Workspaces, Directory services</span></p>
+<p> </p>
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="/packaged-offerings-generic/">Small Business &#8211; working remotely</a> appeared first on <a rel="nofollow" href="/">ILB Computing</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Gerringong Physiotherapy</title>
+		<link>/package-offerings-gerringong-physiotherapy/</link>
+		
+		<dc:creator><![CDATA[ilb_admin]]></dc:creator>
+		<pubDate>Thu, 26 Mar 2020 00:44:52 +0000</pubDate>
+				<category><![CDATA[Uncategorised]]></category>
+		<guid isPermaLink="false">/?p=7709</guid>
+
+					<description><![CDATA[<p>Client ILB Computing had an existing client with a busy and growing Physiology practice over multiple locations. The Problem The servers were getting old and required frequent reboots. The computer workstations were getting old and becoming unreliable. Cloud solution By moving the server to AWS EC2, and all workstations to AWS Workspaces, we created a...</p>
+<p>The post <a rel="nofollow" href="/package-offerings-gerringong-physiotherapy/">Gerringong Physiotherapy</a> appeared first on <a rel="nofollow" href="/">ILB Computing</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h4 class="p1"><b>Client</b></h4>
+<p class="p2">ILB Computing had an existing client with a busy and growing Physiology practice over multiple locations.</p>
+<h4 class="p1"><b>The Problem</b></h4>
+<p class="p2">The servers were getting old and required frequent reboots.</p>
+<p class="p2">The computer workstations were getting old and becoming unreliable.</p>
+<h4 class="p1"><b>Cloud solution</b></h4>
+<p class="p2">By moving the server to AWS EC2, and all workstations to AWS Workspaces, we created a far more flexible infrastructure that allowed easy shared access between and avoided the upfront cost of purchasing new servers and workstations and associated data replication between branches or RDP licenses.</p>
+<p class="p2">The server size is instantly scaleable to suit the changing needs of the business.</p>
+<p class="p2">Each workspace is accessible via the “converted” old workstations. At other locations each user will have remote access to the “same” workspace so they are familiar with the workstation. With a simple VPN solution, printing to all locations is simple</p>
+<h4 class="p1"><b>Cost breakdown</b></h4>
+<ul>
+<li class="p2">Server Move $3542</li>
+<li class="p2">Server hosting &amp; workspace cost per month $1258</li>
+<li class="p2">Workspace setup $1848</li>
+<li class="p2">VPN setup $462</li>
+<li class="p2">Misc configuration and setting up apps $308</li>
+<li class="p2">Hardware $2568</li>
+</ul>
+<h4 class="p1"><b>Total cost and time to complete migration</b></h4>
+<p class="p2">$8728 + $1258 per month ( 12 workspaces plus cloud storage and VPN server )</p>
+<p class="p2">( Note the monthly cost can be reduced significantly by prepaying for 1-3yr periods )</p>
+<p class="p2">Total project time 10 days including training.</p>
+<p>The post <a rel="nofollow" href="/package-offerings-gerringong-physiotherapy/">Gerringong Physiotherapy</a> appeared first on <a rel="nofollow" href="/">ILB Computing</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
