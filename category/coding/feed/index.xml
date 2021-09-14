@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Coding &#8211; ILB Computing</title>
+	<atom:link href="/category/coding/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Your technology partner</description>
+	<lastBuildDate>Thu, 26 Mar 2020 02:04:45 +0000</lastBuildDate>
+	<language>en-AU</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.1</generator>
+	<item>
+		<title>Cloud Migration</title>
+		<link>/case-study-cloud-migration/</link>
+		
+		<dc:creator><![CDATA[ilb_admin]]></dc:creator>
+		<pubDate>Thu, 21 Nov 2019 01:50:50 +0000</pubDate>
+				<category><![CDATA[Coding]]></category>
+		<guid isPermaLink="false">http://impreza.us-themes.net/satisfaction-lies-in-the-effort/</guid>
+
+					<description><![CDATA[<p>The Challenge A client was hosting their main business application (Tourism booking system) with the supplier. This solution wasn’t scalable and wasn’t up to the spike load and reliability requirements the client had. The Architecture and why we chose Amazon The services consisted of a Postgres database, multiple virtual machines running various incarnations of Linux...</p>
+<p>The post <a rel="nofollow" href="/case-study-cloud-migration/">Cloud Migration</a> appeared first on <a rel="nofollow" href="/">ILB Computing</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h4>The Challenge</h4>
+<p>A client was hosting their main business application (Tourism booking system) with the supplier. This solution wasn’t scalable and wasn’t up to the spike load and reliability requirements the client had.</p>
+<h4>The Architecture and why we chose Amazon</h4>
+<p>The services consisted of a Postgres database, multiple virtual machines running various incarnations of Linux and nginx/apache offering services from booking forms, to API interfaces.</p>
+<p>Our work consisted of training the in-house developers to start to build containers for all their services to a point that they were supplying containers to our testing environment and we were then shipping those containers into the production environment as business testing allowed.</p>
+<p>There were some legacy services which were difficult to put into containers as they stored client state in local files. These were put into production as single containers so that if they ever failed, the container was simpler and faster to restart than an entire VM.</p>
+<p>By using ECS and ECR we managed to get all the production services apart from the database running in containers and as this allows simple cross AZ support for replication, we have had no downtime in production since the changes.</p>
+<p>The database is running on Postgres Aurora with a read replica in another AZ.</p>
+<p>The ECS clusters (and each service) use health checks, and cloud watch metrics to auto scale the services and cluster as required using AWS Lambda to re-balance tasks after a scaling event and now easily allows the solution to scale during peak periods.</p>
+<h4>The Benefits and the Future</h4>
+<p>This solution has given the client high up times, low cost and scalability during peak times without any of the complications of the previous suppliers co-location solution.</p>
+<p>The post <a rel="nofollow" href="/case-study-cloud-migration/">Cloud Migration</a> appeared first on <a rel="nofollow" href="/">ILB Computing</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Serverless Call Centre</title>
+		<link>/case-study-serverless-call-centre/</link>
+		
+		<dc:creator><![CDATA[ilb_admin]]></dc:creator>
+		<pubDate>Sun, 27 Oct 2019 01:32:15 +0000</pubDate>
+				<category><![CDATA[Coding]]></category>
+		<guid isPermaLink="false">http://impreza.us-themes.net/this-post-looks-beautiful-even-with-long-interesting-title/</guid>
+
+					<description><![CDATA[<p>The Challenge A small client running a call-centre needed to replace a costly legacy system that was constantly requiring updates and going down on a weekly basis. They needed a fast, scalable, reliable and cheap alternative with very little ongoing maintenance costs. The Architecture and why we chose Amazon We have developed an application where...</p>
+<p>The post <a rel="nofollow" href="/case-study-serverless-call-centre/">Serverless Call Centre</a> appeared first on <a rel="nofollow" href="/">ILB Computing</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+<h4>The Challenge</h4>
+<p>A small client running a call-centre needed to replace a costly legacy system that was constantly requiring updates and going down on a weekly basis. They needed a fast, scalable, reliable and cheap alternative with very little ongoing maintenance costs.</p>
+<h4>The Architecture and why we chose Amazon</h4>
+<p>We have developed an application where calls are taken and then messages automatically sent to clients. Amazon was chosen due to its highly scalable and available services and was achieved using all serverless architecture to drastically reduce costs and possible downtime.</p>
+<p>The system takes messages, submits them to SQS for guaranteed processing and routes to either a modern cloud service for SMS and email, or a legacy PET service for messaging to pagers. Using DynamoDB. API Gateway, Lambda, SQS, SES, SNS, S3 allows us to have very low costs, high reliability and scalability. This combines to have a very low cost of ownership.</p>
+<p>This application replaces the two older server based systems that required the developer to access to maintain and repair when things went wrong. Occasionally clients would miss messages and have no way to alert staff this was happening until complaints. To resolve this we implemented SQS dead-letter queues and CloudWatch monitoring to remain on top of any issues.</p>
+<p>This client has moved from on premises servers, to AWS EC2 with workspaces. Using soft- phones in workspaces has allowed call-centre staff to work from anywhere. The next phase was to replace the overly complicated server software running the old paging systems.</p>
+<h4>The Benefits and the Future</h4>
+<p>The resulting system is fast, scalable, reliable and cheaper than its predecessor and can be run from anywhere there is an internet connection.</p>
+<p>After completing the new project, and with moving phones to another platform, it’s now possible to remove workspaces and be totally browser based to run the entire call-centre.</p>
+<p>Plans are also in motion to expand the services offered by utilising even more of Amazons services including replacing the server running the VOIP system that handles calls and routes them to physical phone extensions and migrating this to AWS connect for tighter integration.</p>
+<p></p><p>The post <a rel="nofollow" href="/case-study-serverless-call-centre/">Serverless Call Centre</a> appeared first on <a rel="nofollow" href="/">ILB Computing</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Workspaces and Scalability</title>
+		<link>/case-study-workspaces-scalability/</link>
+		
+		<dc:creator><![CDATA[ilb_admin]]></dc:creator>
+		<pubDate>Fri, 20 Sep 2019 01:30:34 +0000</pubDate>
+				<category><![CDATA[Coding]]></category>
+		<guid isPermaLink="false">http://impreza.us-themes.net/another-interesting-single-post/</guid>
+
+					<description><![CDATA[<p>The Challenge A client was rapidly acquiring other businesses and required a solution to easily scale the end user computing part of the business including file servers. The Architecture and why we chose Amazon This solution involved moving all workstations to AWS Workspaces. This allows extremely fast deployment of workstations and bringing new staff into...</p>
+<p>The post <a rel="nofollow" href="/case-study-workspaces-scalability/">Workspaces and Scalability</a> appeared first on <a rel="nofollow" href="/">ILB Computing</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<h4>The Challenge</h4>
+<p>A client was rapidly acquiring other businesses and required a solution to easily scale the end user computing part of the business including file servers.</p>
+<h4>The Architecture and why we chose Amazon</h4>
+<p>This solution involved moving all workstations to AWS Workspaces. This allows extremely fast deployment of workstations and bringing new staff into the secure environment. Previously they were waiting up to 3 weeks to have a PC build, SOE installed and having it shipped to the correct site. Now we can deploy a new PC and have the user connected in under 30 minutes.</p>
+<p>The file server solution relied on AWS EFS back end, with SAMBA file servers in an EC2 Auto Scaling group that were in each AZ where the workspaces were. This allowed auto repair and re-deployment of the file servers if any failed. The file servers would auto register with the company AD servers and update Route 53 as required to have minimal downtime incase of a failure.</p>
+<p>The EFS backend allowed spot instances to be used to perform backups. These were replicas to S3 in a versioned bucket on another AWS account. The source account had a “Write Only” policy so that any archives and backups couldn’t be read by any service without access to the archive account. With some simple scripting, we could then also restore folders and files to almost any point in time if a user accidently removed some required data.</p>
+<h4>The Benefits and the Future</h4>
+<p>By Moving to workspaces and a shared file server on EFS, we totally removed the problem of “The files server is full” or other issues that plague most businesses. With the EFS IA migration of EFS, we could also reduce cost drastically as most files are “old” and not frequently accessed.</p>
+<p>The migration also allowed teams such as the marketing team, to merge at a more rapid pace into the business to share assets and work allowing the new acquisitions to be far more efficient more quickly.</p>
+<p>Compliance and security are also simpler as with Workspaces, all data saved to workspaces stays inside the AWS VPC so that if a staff member loses a device, or a device in a branch is stolen, no data is compromised.</p>
+<p>The post <a rel="nofollow" href="/case-study-workspaces-scalability/">Workspaces and Scalability</a> appeared first on <a rel="nofollow" href="/">ILB Computing</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
